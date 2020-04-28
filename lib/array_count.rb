@@ -1,17 +1,16 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
- 
+ alpha = 'abcdefghijklmnopqrstuvwxyz'
  count = 0
  
  
   array.count do |num|
     
-    if num == string
-      count =+1
+    if num.includes?(alpha)
+      count += 1
       
     end
-    
-  end
+  
   
   return count
   
