@@ -6,7 +6,7 @@ def count_strings(array)
  
   array.count do |num|
     
-    if num > string.length
+    if num.is_a?  > string.length
       count += 1
       
     end
