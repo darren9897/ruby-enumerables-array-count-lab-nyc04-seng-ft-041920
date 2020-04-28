@@ -13,7 +13,7 @@ def count_strings(array)
   
   
       count += 1
-  
+return count  
   
 end
 
