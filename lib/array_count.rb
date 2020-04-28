@@ -6,7 +6,7 @@ def count_strings(array)
  
   array.count do |num|
     
-    if num.includes?(alpha)
+    if num.includes?("")
       count += 1
       
     end
