@@ -12,9 +12,9 @@ def count_strings(array)
     end
   
   
-return count
 end
-  
+  return count
+
 end
 
 def count_empty_strings(array)
